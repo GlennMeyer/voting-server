@@ -45,6 +45,7 @@ describe('immutability', () => {
 				'movies',
 				currentState.get('movies').push(movie)
 			);
+			// return currentState.update('movies', movies => movies.push(movie))
 		}
 
 		it('is immutable', () => {
