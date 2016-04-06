@@ -1,4 +1,4 @@
 import chai from 'chai';
-import chairImmutable from 'chai-immutable';
+import chaiImmutable from 'chai-immutable';
 
 chai.use(chaiImmutable);
